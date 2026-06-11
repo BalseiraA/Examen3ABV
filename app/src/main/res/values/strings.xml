@@ -7,4 +7,9 @@
     <string name="btn_iniciar_sesion">Iniciar sesión</string>
     <string name="txt_no_tienes_cuenta">¿No tienes cuenta?</string>
     <string name="btn_registrar">Registrar</string>
+
+    <string name="signup_title">Regístrate</string>
+    <string name="hint_register_user">Nombre de usuario</string>
+    <string name="hint_register_password">Contraseña</string>
+    <string name="btn_register">Registrarse</string>
 </resources>
