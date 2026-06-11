@@ -78,11 +78,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (cantidadUsuarios > 0) {
-                Toast.makeText(
-                    this@MainActivity,
-                    "Ya está registrado",
-                    Toast.LENGTH_SHORT
-                ).show()
+                Toast.makeText(this@MainActivity, "Ya está registrado", Toast.LENGTH_SHORT).show()
             } else {
                 val intent = Intent(this@MainActivity, SignUpActivity::class.java)
                 startActivity(intent)
