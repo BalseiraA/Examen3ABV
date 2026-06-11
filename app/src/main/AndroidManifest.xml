@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen3">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
